@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+When I initialize a repository using 'git init' command, it will create a metadata folder .git which will be hidden, it will contain all git repo info.
+I need to that to integrate my directory to git and keep tracking of my files.
+
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+It is located between the working directory (physical directory) and the repository.
+When we need to commit files or changes which are in the working directory, we first add them to the staging area before we finally commit them to the remote repo.
+It can act as a local repo, and it helps in reverting operations before we finally commit to the git repo.
